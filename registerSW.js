@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/juno-life/sw.js', { scope: '/juno-life/' })})}
